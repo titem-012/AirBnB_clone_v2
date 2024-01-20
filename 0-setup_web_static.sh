@@ -36,3 +36,4 @@ printf %s "server {
 }" | sudo tee /etc/nginx/sites-enabled/default
 
 sudo service nginx restart
+
