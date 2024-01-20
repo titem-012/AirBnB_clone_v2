@@ -6,8 +6,7 @@ sudo apt-get -y install nginx
 
 sudo mkdir -p '/data/web_static/releases/test/'
 sudo mkdir -p '/data/web_static/shared/'
-
-sudo echo "Holberton School" > '/data/web_static/releases/test/index.html'
+echo "Holberton School" | sudo tee '/data/web_static/releases/test/index.html'
 
 sudo ln -sf '/data/web_static/releases/test/' '/data/web_static/current'
 
